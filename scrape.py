@@ -2,15 +2,12 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-# rを付けることを推奨。
-# バックスラッシュをそのままで分かりやすいため。
 content = r'hellow python, 123, end.' 
 pattern = 'hel'
 
 result = re.match(pattern, content)
 
 
-# URLからHTMLを取得します
 url  = "https://store.nintendo.co.jp/item/HAD_S_KAYAA.html"
 url2 = "https://store.nintendo.co.jp/item/HAD_S_KAYAA.html?c_param=c8739695bc15f0f51b80ceb31f5bddd2"
 
