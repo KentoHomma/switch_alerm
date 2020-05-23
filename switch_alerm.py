@@ -4,9 +4,9 @@ from email.mime.text import MIMEText
 from email.utils import formatdate
 import ssl
 
-FROM_ADDRESS = 'sigareeeta2@gmail.com'
-MY_PASSWORD = 'VDlqxhhn'
-TO_ADDRESS = 'sigareeeta2@gmail.com'
+FROM_ADDRESS = '###@gmail.com'
+MY_PASSWORD = ###
+TO_ADDRESS = '###@gmail.com'
 BCC = ''
 SUBJECT = 'Switch入荷！早く買えバカ'
 BODY = 'switch入荷！早く買えバカ！'
